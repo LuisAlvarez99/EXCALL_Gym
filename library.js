@@ -23,7 +23,7 @@ fetch('https://fizal.me/pokeapi/api/v2/id/68.json')
 }
 pokemons()
 
-pokemons= ()=> {  
+pokemons= ()=> {
 
 fetch('https://fizal.me/pokeapi/api/v2/id/107.json')
 .then((res)=>res.json())
@@ -36,13 +36,20 @@ fetch('https://fizal.me/pokeapi/api/v2/id/107.json')
 }
 pokemons()
 
+
+
+
+
+
+
+
 pokemons= ()=> {
 // let x = prompt('enter a number')
-fetch(`https://fizal.me/pokeapi/api/v2/id/254.json`)
+fetch(`https://fizal.me/pokeapi/api/v2/id/612.json`)
 .then((res)=>res.json())
 .then((data)=>{
   console.log(data)
-  let sceptile = document.getElementById('sceptile')
+  let sceptile = document.getElementById('haxorus')
   sceptile.src = data.sprites.front_shiny
 })
 }
@@ -71,6 +78,15 @@ fetch('https://fizal.me/pokeapi/api/v2/id/373.json')
 }
 pokemons()
 
+
+
+
+
+
+
+
+
+
 pokemons= ()=> {
 // let x = prompt('enter a number')
 fetch(`https://fizal.me/pokeapi/api/v2/id/362.json`)
@@ -83,6 +99,7 @@ fetch(`https://fizal.me/pokeapi/api/v2/id/362.json`)
 })
 }
 pokemons()
+
 
 
 pokemons= ()=> {
@@ -107,6 +124,15 @@ fetch('https://fizal.me/pokeapi/api/v2/id/131.json')
 })
 }
 pokemons()
+
+
+
+
+
+
+
+
+
 
 pokemons= ()=> {
 // let x = prompt('enter a number')
