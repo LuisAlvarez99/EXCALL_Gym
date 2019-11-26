@@ -6,6 +6,7 @@ fetch(`https://fizal.me/pokeapi/api/v2/id/257.json`)
   console.log(data)
   let image = document.getElementById('blazeiken')
   image.src = data.sprites.front_default
+
 })
 }
 pokemons()
@@ -22,7 +23,7 @@ fetch('https://fizal.me/pokeapi/api/v2/id/68.json')
 }
 pokemons()
 
-pokemons= ()=> {
+pokemons= ()=> {  
 
 fetch('https://fizal.me/pokeapi/api/v2/id/107.json')
 .then((res)=>res.json())
@@ -141,3 +142,32 @@ fetch('https://fizal.me/pokeapi/api/v2/id/429.json')
 })
 }
 pokemons()
+
+class Leader {
+  constructor(name){
+    this.name = name
+    this.team = []
+  }
+}
+
+
+class Pokemon {
+  constructor() {
+    this.name = ''
+  }
+}
+
+class Trainer {
+  constructor(name) {
+    this.name = name
+    this.team = []
+  }
+}
+
+
+let trainer = new Trainer()
+let dude = new Pokemon()
+let luisA = new Leader('Lewis A')
+let xaiver = new Leader('Xaiver')
+let eshwar = new Leader('Eshwar')
+let luisC = new Leader('Luis')
