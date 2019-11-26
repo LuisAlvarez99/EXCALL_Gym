@@ -6,6 +6,7 @@ fetch(`https://fizal.me/pokeapi/api/v2/id/257.json`)
   console.log(data)
   let image = document.getElementById('blazeiken')
   image.src = data.sprites.front_default
+
 })
 }
 pokemons()
@@ -22,7 +23,7 @@ fetch('https://fizal.me/pokeapi/api/v2/id/68.json')
 }
 pokemons()
 
-pokemons= ()=> {
+pokemons= ()=> {  
 
 fetch('https://fizal.me/pokeapi/api/v2/id/107.json')
 .then((res)=>res.json())
