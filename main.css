@@ -4,6 +4,24 @@ body {
 
 #grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 50vw);
+    grid-template-rows: repeat(2, 50vh);
+    grid-template-areas: 'teamX teamE'
+    'teamA teamC';
+}
+
+.TeamXavier {
+    grid-area: teamX;
+}
+
+.TeamLuis {
+    grid-area: teamC;
+}
+
+.TeamEshwar {
+    grid-area: teamE;
+}
+
+.TeamLewis {
+    grid-area: teamA;
 }
