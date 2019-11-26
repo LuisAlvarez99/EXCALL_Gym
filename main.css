@@ -6,6 +6,9 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 50vw);
     grid-template-rows: repeat(2, 50vh);
+    justify-items: center;
+    align-items: center;
+    column-gap: 1%;
     grid-template-areas: 'teamX teamE'
     'teamA teamC';
 }
