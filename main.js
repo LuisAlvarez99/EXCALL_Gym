@@ -35,13 +35,6 @@ fetch('https://fizal.me/pokeapi/api/v2/id/107.json')
 }
 pokemons()
 
-
-
-
-
-
-
-
 pokemons= ()=> {
 // let x = prompt('enter a number')
 fetch(`https://fizal.me/pokeapi/api/v2/id/254.json`)
@@ -77,15 +70,6 @@ fetch('https://fizal.me/pokeapi/api/v2/id/373.json')
 }
 pokemons()
 
-
-
-
-
-
-
-
-
-
 pokemons= ()=> {
 // let x = prompt('enter a number')
 fetch(`https://fizal.me/pokeapi/api/v2/id/362.json`)
@@ -98,7 +82,6 @@ fetch(`https://fizal.me/pokeapi/api/v2/id/362.json`)
 })
 }
 pokemons()
-
 
 
 pokemons= ()=> {
@@ -123,15 +106,6 @@ fetch('https://fizal.me/pokeapi/api/v2/id/131.json')
 })
 }
 pokemons()
-
-
-
-
-
-
-
-
-
 
 pokemons= ()=> {
 // let x = prompt('enter a number')
