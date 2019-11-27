@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 let btn = document.getElementById('btn')
 let btn2 = document.getElementById('btn2')
 let head = document.getElementById('entrance')
@@ -16,15 +15,7 @@ btn.addEventListener('click', () => {
     elite.style.display = 'block'
   }, 3000)
 })
-=======
 // alert('WELCOME TO THE KAMUI GYM! HOME OF THE EXCALL BADGE!')
-
-// var slideSource = document.getElementById('entrance');
-//
-// document.getElementById('entrance').onclick = function () {
-//   slideSource.classList.add('fade');
-// }
->>>>>>> Stashed changes
 
 btn2.addEventListener('click', () => {
   par.style.display = 'block'

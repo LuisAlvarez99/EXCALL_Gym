@@ -1,13 +1,10 @@
 body {
     margin: 0;
-<<<<<<< Updated upstream
     z-index: 1;
     font-family: 'Roboto Mono', monospace;;
-=======
     background-color: black;
     height: 90vh;
     width: 90vw;
->>>>>>> Stashed changes
 }
 
 @keyframes fade{
@@ -109,13 +106,8 @@ h1 {
 
 #grid {
     display: grid;
-<<<<<<< Updated upstream
     grid-template-columns: repeat(6, 16.66vw);
     grid-template-rows: repeat(6, 16.66vh);
-=======
-    grid-template-columns: repeat(6, 16.2vw);
-    grid-template-rows: repeat(6, 16.2vh);
->>>>>>> Stashed changes
     /* column-gap: 1%; */
     grid-template-areas:
     "teamX teamX teamX teamE teamE teamE"
@@ -138,11 +130,7 @@ h1 {
     grid-template-rows: repeat(3, 33.33%);
     grid-template-areas:
     ". . ."
-<<<<<<< Updated upstream
-    ". fig ."
-=======
     ". fig fig"
->>>>>>> Stashed changes
     ". . ."
 }
 
@@ -153,19 +141,11 @@ h1 {
     height: 100%;
     width: 100%;
     display: grid;
-<<<<<<< Updated upstream
-    grid-template-columns: repeat(3, 33.33%);
-    grid-template-rows: repeat(3, 33.33%);
-    grid-template-areas:
-    ". . ."
-    ". dra ."
-=======
     grid-template-columns: 20% 40% 40%;
     grid-template-rows: 30% 25% 45%;
     grid-template-areas:
     ". . ."
     ". dra dra"
->>>>>>> Stashed changes
     ". . ."
 }
 
@@ -176,21 +156,12 @@ h1 {
     height: 100%;
     width: 100%;
     display: grid;
-<<<<<<< Updated upstream
-    grid-template-columns: repeat(3, 33.33%);
-    grid-template-rows: repeat(3, 33.33%);
-    grid-template-areas:
-    ". . ."
-    ". ice ."
-    ". . ."
-=======
     grid-template-columns: 20% 40% 40%;
     grid-template-rows: 30% 30% 40%;
     grid-template-areas:
     ". . ."
     ". . ."
     ". ice ice"
->>>>>>> Stashed changes
 }
 
 #TeamLewis {
@@ -200,21 +171,12 @@ h1 {
     height: 100%;
     width: 100%;
     display: grid;
-<<<<<<< Updated upstream
-    grid-template-columns: repeat(3, 33.33%);
-    grid-template-rows: repeat(3, 33.33%);
-    grid-template-areas:
-    ". . ."
-    ". gho ."
-    ". . ."
-=======
     grid-template-columns: 20% 45% 35%;
     grid-template-rows: 20% 44% 36%;
     grid-template-areas:
     ". . ."
     ". . ."
     ". gho gho"
->>>>>>> Stashed changes
 }
 
 #fighters {
