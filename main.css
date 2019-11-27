@@ -4,13 +4,16 @@ body {
 
 #grid {
     display: grid;
-    grid-template-columns: repeat(2, 50vw);
-    grid-template-rows: repeat(2, 50vh);
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: repeat(6, 16.66vw);
+    grid-template-rows: repeat(6, 16.66vh);
     /* column-gap: 1%; */
-    grid-template-areas: 'teamX teamE'
-    'teamA teamC';
+    grid-template-areas:
+    "teamX teamX teamX teamE teamE teamE"
+    "teamX teamX teamX teamE teamE teamE"
+    "teamX teamX teamX teamE teamE teamE"
+    "teamC teamC teamC teamA teamA teamA"
+    "teamC teamC teamC teamA teamA teamA"
+    "teamC teamC teamC teamA teamA teamA"
 }
 
 .TeamXaiver {
@@ -19,6 +22,13 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(3, 33.33%);
+    grid-template-areas:
+    ". . ."
+    ". fig ."
+    ". . ."
 }
 
 .TeamLuis {
@@ -27,6 +37,13 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(3, 33.33%);
+    grid-template-areas:
+    ". . ."
+    ". dra ."
+    ". . ."
 }
 
 .TeamEshwar {
@@ -35,7 +52,13 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
-
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(3, 33.33%);
+    grid-template-areas:
+    ". . ."
+    ". ice ."
+    ". . ."
 }
 
 .TeamLewis {
@@ -44,4 +67,27 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(3, 33.33%);
+    grid-template-areas:
+    ". . ."
+    ". gho ."
+    ". . ."
+}
+
+#fighters {
+grid-area: fig
+}
+
+#dragons  {
+grid-area: dra
+}
+
+#ices {
+grid-area: ice
+}
+
+#ghosts {
+grid-area: gho
 }
