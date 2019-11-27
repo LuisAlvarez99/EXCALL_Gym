@@ -231,3 +231,21 @@ let luisA = new Leader('Lewis A')
 let xaiver = new Leader('Xaiver')
 let eshwar = new Leader('Eshwar')
 let luisC = new Leader('Luis')
+
+
+
+let myModal = document.getElementById('myModal')
+let but = document.getElementById('myBtn')
+let span = document.getElementsByClassName('close')[0]
+
+but.onclick = function() {
+  myModal.style.display = 'block'
+}
+span.onclick = function() {
+  myModal.style.display = 'none'
+}
+window.onclick = function(event) {
+  if (event.target == myModal) {
+    modal.style.display = "none";
+  }
+}
