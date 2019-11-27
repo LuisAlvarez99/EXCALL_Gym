@@ -4,8 +4,8 @@ body {
 
 #grid {
     display: grid;
-    grid-template-columns: repeat(6, 16.66vw);
-    grid-template-rows: repeat(6, 16.66vh);
+    grid-template-columns: repeat(6, 16.67vw);
+    grid-template-rows: repeat(6, 16.67vh);
     /* column-gap: 1%; */
     grid-template-areas:
     "teamX teamX teamX teamE teamE teamE"
@@ -23,8 +23,8 @@ body {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 30% 50% 20%;
-    grid-template-rows: 30% 35% 35%;
+    grid-template-columns: 33% 50% 17%;
+    grid-template-rows: 40% 30% 30%;
     grid-template-areas:
     ". . ."
     ". . ."
@@ -39,7 +39,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 30% 50% 20%;
-    grid-template-rows: 25% 27% 48%;
+    grid-template-rows: 30% 25% 45%;
     grid-template-areas:
     ". . ."
     ". . ."
@@ -54,7 +54,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 30% 50% 20%;
-    grid-template-rows: 35% 34% 30%;
+    grid-template-rows: 30% 40% 30%;
     grid-template-areas:
     ". . ."
     ". . ."
@@ -63,17 +63,21 @@ body {
 
 .TeamLewis {
     grid-area: teamA;
-    background-image: url('./gymImages/ghostGym.png');
+    background-image: url('https://cdn02.nintendo-europe.com/media/images/08_content_images/games_6/nintendo_switch_7/nswitch_supersmashbrosultimate_1/CI_NSwitch_SuperSmashBrosUltimate_Stage_04.jpg');
     background-size: cover;
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 40% 50% 10%;
-    grid-template-rows: 30% 35% 30%;
+    grid-template-columns: 33% 45% 22%;
+    grid-template-rows: 30% 42% 26%;
     grid-template-areas:
     ". . ."
     ". . ."
     ". gho ."
+}
+
+.leader {
+  cursor: pointer;
 }
 
 #fighters {
