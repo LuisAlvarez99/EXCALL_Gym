@@ -103,7 +103,7 @@ h1 {
 
 #elite {
     display: none;
-}
+
 
 #grid {
     display: grid;
@@ -167,7 +167,7 @@ h1 {
 
 .TeamLewis {
     grid-area: teamA;
-    background-image: url('./gymImages/ghostGym.png');
+    background-image: url('https://cdn02.nintendo-europe.com/media/images/08_content_images/games_6/nintendo_switch_7/nswitch_supersmashbrosultimate_1/CI_NSwitch_SuperSmashBrosUltimate_Stage_04.jpg');
     background-size: cover;
     height: 100%;
     width: 100%;

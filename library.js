@@ -36,8 +36,8 @@ fetch(`https://fizal.me/pokeapi/api/v2/id/257.json`)
 .then((res)=>res.json())
 .then((data)=>{
   console.log(data)
-  let image = document.getElementById('blazeiken')
-  image.src = data.sprites.front_default
+  let image = document.getElementById('blaziken')
+  image.src = `http://www.pkparaiso.com/imagenes/xy/sprites/animados/blaziken.gif`
   xaiver.team.push(data)
 
 })
@@ -51,7 +51,7 @@ fetch('https://fizal.me/pokeapi/api/v2/id/68.json')
 .then((data)=>{
   console.log(data)
   let machamp = document.getElementById('machamp')
-  machamp.src = data.sprites.front_shiny
+  machamp.src = `http://www.pkparaiso.com/imagenes/xy/sprites/animados/machamp.gif`
   xaiver.team.push(data)
 })
 }
@@ -64,7 +64,7 @@ fetch('https://fizal.me/pokeapi/api/v2/id/107.json')
 .then((data)=>{
   console.log(data)
   let hitmonchan = document.getElementById('hitmonchan')
-  hitmonchan.src = data.sprites.front_default
+  hitmonchan.src = `http://www.pkparaiso.com/imagenes/xy/sprites/animados/hitmonchan.gif`
   xaiver.team.push(data)
 
 })
@@ -85,7 +85,7 @@ fetch(`https://fizal.me/pokeapi/api/v2/id/612.json`)
 .then((data)=>{
   console.log(data)
   let sceptile = document.getElementById('haxorus')
-  sceptile.src = data.sprites.front_shiny
+  sceptile.src = `http://www.pkparaiso.com/imagenes/xy/sprites/animados/haxorus.gif`
   luisC.team.push(data)
 })
 }
@@ -98,7 +98,7 @@ fetch('https://fizal.me/pokeapi/api/v2/id/230.json')
 .then((data)=>{
   console.log(data)
   let kindra = document.getElementById('kingdra')
-  kindra.src = data.sprites.front_shiny
+  kindra.src = `http://www.pkparaiso.com/imagenes/xy/sprites/animados/kingdra.gif`
   luisC.team.push(data)
 })
 }
@@ -110,7 +110,7 @@ fetch('https://fizal.me/pokeapi/api/v2/id/373.json')
 .then((data)=>{
   console.log(data)
   let salamance = document.getElementById('salamance')
-  salamance.src = data.sprites.front_shiny
+  salamance.src = `http://www.pkparaiso.com/imagenes/xy/sprites/animados/salamence.gif`
   luisC.team.push(data)
 })
 }
@@ -132,7 +132,7 @@ fetch(`https://fizal.me/pokeapi/api/v2/id/362.json`)
 .then((data)=>{
   console.log(data)
   let glalie = document.getElementById('glalie')
-  glalie.src = data.sprites.front_default
+  glalie.src = `http://www.pkparaiso.com/imagenes/xy/sprites/animados/glalie.gif`
   eshwar.team.push(data)
 
 })
@@ -148,7 +148,7 @@ fetch('https://fizal.me/pokeapi/api/v2/id/460.json')
 .then((data)=>{
   console.log(data)
   let abomasnow = document.getElementById('abomasnow')
-  abomasnow.src = data.sprites.front_default
+  abomasnow.src = `http://www.pkparaiso.com/imagenes/xy/sprites/animados/abomasnow.gif`
   eshwar.team.push(data)
 })
 }
@@ -160,21 +160,11 @@ fetch('https://fizal.me/pokeapi/api/v2/id/131.json')
 .then((data)=>{
   console.log(data)
   let lapras = document.getElementById('lapras')
-  lapras.src = data.sprites.front_default
+  lapras.src = `http://www.pkparaiso.com/imagenes/xy/sprites/animados/lapras.gif`
   eshwar.team.push(data)
 })
 }
 pokemons()
-
-
-
-
-
-
-
-
-
-
 pokemons= ()=> {
 // let x = prompt('enter a number')
 fetch(`https://fizal.me/pokeapi/api/v2/id/94.json`)
@@ -182,20 +172,19 @@ fetch(`https://fizal.me/pokeapi/api/v2/id/94.json`)
 .then((data)=>{
   console.log(data)
   let gengar = document.getElementById('gengar')
-  gengar.src = data.sprites.front_default
+  gengar.src =`http://www.pkparaiso.com/imagenes/xy/sprites/animados/gengar.gif`
   luisA.team.push(data)
-
 })
 }
+
 pokemons()
 pokemons= ()=> {
-
 fetch('https://fizal.me/pokeapi/api/v2/id/720.json')
 .then((res)=>res.json())
 .then((data)=>{
   console.log(data)
   let hoopa = document.getElementById('hoopa')
-  hoopa.src = data.sprites.front_default
+  hoopa.src = `http://www.pkparaiso.com/imagenes/xy/sprites/animados/hoopa.gif`
   luisA.team.push(data)
 })
 }
@@ -207,7 +196,7 @@ fetch('https://fizal.me/pokeapi/api/v2/id/429.json')
 .then((data)=>{
   console.log(data)
   let mismagius = document.getElementById('mismagius')
-  mismagius.src = data.sprites.front_default
+  mismagius.src = `http://www.pkparaiso.com/imagenes/xy/sprites/animados/mismagius.gif`
   luisA.team.push(data)
 })
 }
