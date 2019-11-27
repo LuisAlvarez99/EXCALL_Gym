@@ -101,10 +101,6 @@ h1 {
     background-color: rgb(11, 105, 24);
 }
 
-#elite {
-    display: none;
-
-
 #grid {
     display: grid;
     grid-template-columns: repeat(6, 16.66vw);
@@ -120,7 +116,7 @@ h1 {
     z-index: 2;
 }
 
-.TeamXaiver {
+#TeamXaiver {
     grid-area: teamX;
     background-image: url('./gymImages/fightingGym.jpg');
     background-size: cover;
@@ -135,7 +131,7 @@ h1 {
     ". . ."
 }
 
-.TeamLuis {
+#TeamLuis {
     grid-area: teamC;
     background-image: url('./gymImages/dragonGym.jpg');
     background-size: cover;
@@ -150,7 +146,7 @@ h1 {
     ". . ."
 }
 
-.TeamEshwar {
+#TeamEshwar {
     grid-area: teamE;
     background-image: url('./gymImages/iceGym.jpg');
     background-size: cover;
@@ -165,7 +161,7 @@ h1 {
     ". . ."
 }
 
-.TeamLewis {
+#TeamLewis {
     grid-area: teamA;
     background-image: url('https://cdn02.nintendo-europe.com/media/images/08_content_images/games_6/nintendo_switch_7/nswitch_supersmashbrosultimate_1/CI_NSwitch_SuperSmashBrosUltimate_Stage_04.jpg');
     background-size: cover;
