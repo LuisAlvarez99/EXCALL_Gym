@@ -1,16 +1,123 @@
 body {
     margin: 0;
+    z-index: 1;
+    font-family: 'Roboto Mono', monospace;;
+}
+
+@keyframes fade{
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#par {
+    display: none;
+    position: absolute;
+    font-weight: 900;
+    z-index: 3;
+    left: 30%;
+    top: 8%;
+    font-size: 90px;
+    color: navy;
+    background-color: rgba(211, 13, 13, 0.884);
+    border-radius: 1vmin;
+    padding-left: 10px;
+}
+
+#fade {
+    animation: fade 3s;
+}
+
+#fadeIn {
+    animation: fadeIn 3s;
+}
+
+#home {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
+
+#entrance {
+    font-family: 'Alatsi', sans-serif;
+    letter-spacing: 5px;
+}
+
+h1 {
+    position: absolute;
+    z-index: 3;
+    top: 32%;
+    left: 30%;
+    font-size: 40px;
+    color: #051122;
+    text-shadow: 1px 2px 2px;
+    text-transform: uppercase;
+    background-color: #2b384b6b;
+    border-radius: 25%;
+}
+
+#btn {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 43%;
+    padding: 10px 30px;
+    background-color: rgb(11, 117, 25);
+    color: rgb(238, 238, 238);
+    font-family: 'Alatsi', sans-serif;
+    cursor: pointer;
+    border: 1px solid #2b384b6b;
+    border-radius: 2em;
+}
+
+#btn2 {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 52%;
+    padding: 10px 30px;
+    background-color: rgb(11, 117, 25);
+    color: rgb(238, 238, 238);
+    font-family: 'Alatsi', sans-serif;
+    cursor: pointer;
+    border: 1px solid #2b384b6b;
+    border-radius: 2em;
+}
+
+#btn:hover, #btn2:hover {
+    background-color: rgb(11, 105, 24);
+}
+
+#elite {
+    display: none;
 }
 
 #grid {
     display: grid;
-    grid-template-columns: repeat(2, 50vw);
-    grid-template-rows: repeat(2, 50vh);
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: repeat(6, 16.66vw);
+    grid-template-rows: repeat(6, 16.66vh);
     /* column-gap: 1%; */
-    grid-template-areas: 'teamX teamE'
-    'teamA teamC';
+    grid-template-areas:
+    "teamX teamX teamX teamE teamE teamE"
+    "teamX teamX teamX teamE teamE teamE"
+    "teamX teamX teamX teamE teamE teamE"
+    "teamC teamC teamC teamA teamA teamA"
+    "teamC teamC teamC teamA teamA teamA"
+    "teamC teamC teamC teamA teamA teamA";
+    z-index: 2;
 }
 
 .TeamXaiver {
@@ -19,6 +126,13 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(3, 33.33%);
+    grid-template-areas:
+    ". . ."
+    ". fig ."
+    ". . ."
 }
 
 .TeamLuis {
@@ -27,6 +141,13 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(3, 33.33%);
+    grid-template-areas:
+    ". . ."
+    ". dra ."
+    ". . ."
 }
 
 .TeamEshwar {
@@ -35,7 +156,13 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
-
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(3, 33.33%);
+    grid-template-areas:
+    ". . ."
+    ". ice ."
+    ". . ."
 }
 
 .TeamLewis {
@@ -44,4 +171,27 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(3, 33.33%);
+    grid-template-areas:
+    ". . ."
+    ". gho ."
+    ". . ."
+}
+
+#fighters {
+grid-area: fig
+}
+
+#dragons  {
+grid-area: dra
+}
+
+#ices {
+grid-area: ice
+}
+
+#ghosts {
+grid-area: gho
 }

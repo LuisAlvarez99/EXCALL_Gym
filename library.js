@@ -1,3 +1,35 @@
+let btn = document.getElementById('btn')
+let btn2 = document.getElementById('btn2')
+let head = document.getElementById('entrance')
+let elite = document.getElementById('elite')
+let par = document.getElementById('par')
+
+btn.addEventListener('click', () => {
+  head.id = 'fade'
+  setTimeout(() => {
+    head.style.display = 'none'
+  }, 3000)
+
+  elite.id = 'fadeIn'
+  setTimeout(() => {
+    elite.style.display = 'block'
+  }, 3000)
+})
+
+btn2.addEventListener('click', () => {
+  par.style.display = 'block'
+  par.style.animation = ' fadeIn 1s'
+  head.id = 'fade'
+  setTimeout(() => {
+    head.style.display = 'none'
+  }, 3000)
+
+  elite.id = 'fadeIn'
+  setTimeout(() => {
+    elite.style.display = 'block'
+  }, 3000)
+})
+
 pokemons= ()=> {
 // let x = prompt('enter a number')
 fetch(`https://fizal.me/pokeapi/api/v2/id/257.json`)
