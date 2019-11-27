@@ -1,11 +1,12 @@
 body {
     margin: 0;
+    background-color: black;
 }
 
 #grid {
     display: grid;
-    grid-template-columns: repeat(6, 16.67vw);
-    grid-template-rows: repeat(6, 16.67vh);
+    grid-template-columns: repeat(6, 16.63vw);
+    grid-template-rows: repeat(6, 16.62vh);
     /* column-gap: 1%; */
     grid-template-areas:
     "teamX teamX teamX teamE teamE teamE"
