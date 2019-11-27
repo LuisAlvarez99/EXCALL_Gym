@@ -1,5 +1,12 @@
 alert('WELCOME TO THE KAMUI GYM! HOME OF THE EXCALL BADGE!')
 
+var slideSource = document.getElementById('entrance');
+
+document.getElementById('entrance').onclick = function () {
+  slideSource.classList.add('fade');
+}
+
+
 pokemons= ()=> {
 // let x = prompt('enter a number')
 fetch(`https://fizal.me/pokeapi/api/v2/id/257.json`)

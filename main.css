@@ -3,10 +3,24 @@ body {
     background-color: black;
 }
 
+#entrance {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#entrance.fade {
+  opacity: 0;
+}
+
 #grid {
     display: grid;
     grid-template-columns: repeat(6, 16.63vw);
     grid-template-rows: repeat(6, 16.62vh);
+    z-index: 0;
     /* column-gap: 1%; */
     grid-template-areas:
     "teamX teamX teamX teamE teamE teamE"
@@ -80,6 +94,7 @@ body {
 .leader {
   cursor: pointer;
 }
+
 
 #fighters {
 grid-area: fig
