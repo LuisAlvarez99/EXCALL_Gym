@@ -23,12 +23,12 @@ body {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 33.33%);
-    grid-template-rows: repeat(3, 33.33%);
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows: 30% 35% 35%;
     grid-template-areas:
     ". . ."
-    ". fig ."
     ". . ."
+    ". fig ."
 }
 
 .TeamLuis {
@@ -38,12 +38,12 @@ body {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 33.33%);
-    grid-template-rows: repeat(3, 33.33%);
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows: 30% 27% 43%;
     grid-template-areas:
     ". . ."
-    ". dra ."
     ". . ."
+    ". dra ."
 }
 
 .TeamEshwar {
@@ -53,12 +53,12 @@ body {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 33.33%);
-    grid-template-rows: repeat(3, 33.33%);
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows: 35% 34% 30%;
     grid-template-areas:
     ". . ."
-    ". ice ."
     ". . ."
+    ". ice ."
 }
 
 .TeamLewis {
@@ -68,12 +68,12 @@ body {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 33.33%);
-    grid-template-rows: repeat(3, 33.33%);
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows: 30% 35% 30%;
     grid-template-areas:
     ". . ."
-    ". gho ."
     ". . ."
+    ". gho ."
 }
 
 #fighters {
