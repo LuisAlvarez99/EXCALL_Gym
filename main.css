@@ -39,7 +39,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 30% 50% 20%;
-    grid-template-rows: 30% 27% 43%;
+    grid-template-rows: 25% 27% 48%;
     grid-template-areas:
     ". . ."
     ". . ."
@@ -68,7 +68,7 @@ body {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 30% 50% 20%;
+    grid-template-columns: 40% 50% 10%;
     grid-template-rows: 30% 35% 30%;
     grid-template-areas:
     ". . ."
