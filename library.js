@@ -253,6 +253,11 @@ let inside4 = document.getElementsByClassName('inner-modal')[3]
 
 
 function pokeStats1() {
+  let img = document.createElement('img')
+  img.src = 'https://archives.bulbagarden.net/media/upload/1/1c/Spr_B2W2_Black_Belt.png'
+  img.style.width = '35%'
+  img.style.height = 'auto'
+  inside1.appendChild(img)
   let div = document.createElement('div')
   inside1.appendChild(div)
   div.innerHTML = `<p> ${xaiver.team[0].name}</p>
@@ -291,6 +296,11 @@ span1.onclick = function() {
 }
 
 function pokeStats4() {
+  let img = document.createElement('img')
+  img.src = 'https://archives.bulbagarden.net/media/upload/b/b6/Spr_B2W2_Drayden.png'
+  img.style.width = '35%'
+  img.style.height = 'auto'
+  inside2.appendChild(img)
   let div = document.createElement('div')
   inside2.appendChild(div)
   div.innerHTML = `<p> ${luisC.team[0].name}</p>
@@ -329,6 +339,11 @@ span2.onclick = function() {
 }
 
 function pokeStats7() {
+  let img = document.createElement('img')
+  img.src = 'https://archives.bulbagarden.net/media/upload/e/e5/Spr_B2W2_Pryce.png'
+  img.style.width = '35%'
+  img.style.height = 'auto'
+  inside3.appendChild(img)
   let div = document.createElement('div')
   inside3.appendChild(div)
   div.innerHTML = `<p> ${eshwar.team[0].name}</p>
@@ -367,6 +382,11 @@ span3.onclick = function() {
 }
 
 function pokeStats10() {
+  let img = document.createElement('img')
+  img.src = 'https://archives.bulbagarden.net/media/upload/9/96/Spr_B2W2_Shadow_Triad.png'
+  img.style.width = '35%'
+  img.style.height = 'auto'
+  inside4.appendChild(img)
   let div = document.createElement('div')
   inside4.appendChild(div)
   div.innerHTML = `<p> ${luisA.team[0].name}</p>
@@ -387,11 +407,11 @@ function pokeStats11() {
 function pokeStats12() {
   let div = document.createElement('div')
   inside4.appendChild(div)
-  div.innerHTML = `<p> ${xaiver.team[2].name}</p>
-                    <img src=${xaiver.team[2].sprites.front_default}>
-                    <p>HP: ${xaiver.team[2].stats[5].base_stat}</p>
-                    <p>ATK: ${xaiver.team[2].stats[4].base_stat}</p>
-                    <p>DEF: ${xaiver.team[2].stats[3].base_stat}</p>`
+  div.innerHTML = `<p> ${luisA.team[2].name}</p>
+                    <img src=${luisA.team[2].sprites.front_default}>
+                    <p>HP: ${luisA.team[2].stats[5].base_stat}</p>
+                    <p>ATK: ${luisA.team[2].stats[4].base_stat}</p>
+                    <p>DEF: ${luisA.team[2].stats[3].base_stat}</p>`
 }
 
 but4.onclick = function() {

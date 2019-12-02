@@ -205,6 +205,8 @@ h1 {
 
 .inner-modal {
   display: flex;
+  justify-content: space-around;
+  overflow-x: hidden;
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
