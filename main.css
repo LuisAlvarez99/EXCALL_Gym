@@ -204,6 +204,7 @@ h1 {
 }
 
 .inner-modal {
+  display: flex;
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
@@ -211,9 +212,24 @@ h1 {
   width: 80%;
 }
 
-#myBtn {
+#myBtn1 {
   margin-top:10%;
-  width: auto;
+  width: 40%;
+  height: 10%;
+}
+#myBtn2 {
+  margin-top:10%;
+  width: 40%;
+  height: 10%;
+}
+#myBtn3 {
+  margin-top:10%;
+  width: 40%;
+  height: 10%;
+}
+#myBtn4 {
+  margin-top:10%;
+  width: 40%;
   height: 10%;
 }
 
